@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer utilities {
+    .user-select-none {
+        user-select: none;
+    }
+}
